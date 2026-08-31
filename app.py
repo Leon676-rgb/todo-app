@@ -2,6 +2,8 @@ import streamlit as st
 import json
 import os
 
+st.set_page_config(page_title="To-do-Liste", page_icon="📝")
+
 st.title("📝 Meine To-do-Liste")
 
 if "name" not in st.session_state:
